@@ -1,0 +1,19 @@
+.header {
+  height: 15vh;
+  display: flex;
+  justify-content: center;
+  background-color: #22272e;
+  color: aliceblue;
+  font-family: "Shadows Into Light", sans-serif;
+}
+.header h3 {
+  margin: 0;
+  height: 100%;
+  /* background-color: red; Degisecek */
+  display: flex;
+  align-items: center;
+  padding: 0 15px;
+}
+.header h3:hover {
+  background-color: #899598;
+}
