@@ -23,7 +23,6 @@ const Main = () => {
                 />
                 <p className="desc">{desc}</p>
               </div>
-              {/* <div className="desc">{desc}</div> */}
             </div>
           );
         })}
@@ -33,10 +32,3 @@ const Main = () => {
 };
 
 export default Main;
-
-/* <div class="card" style="width: 18rem;">
-    <div class="card-body">
-      <h5 class="card-title">Card title</h5>
-    </div>
-    <img src="..." class="card-img-top" alt="...">
-</div> */
