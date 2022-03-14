@@ -1,5 +1,6 @@
 .header {
-  height: 15vh;
+  /* height: 15vh; */
+  padding: 0.5em 0.5em;
   display: flex;
   justify-content: center;
   background-color: #22272e;
@@ -16,4 +17,10 @@
 }
 .header h3:hover {
   background-color: #899598;
+}
+
+@media screen and (max-width: 480px) {
+  .header {
+    flex-direction: column;
+  }
 }

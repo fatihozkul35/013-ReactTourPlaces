@@ -21,7 +21,8 @@
   padding: 0.5em;
 }
 .container .cards .card:hover {
-  transform: translateY(-30px);
+  transform: scale(1.1, 1.1);
+  /* transform: translateY(-10%); */
   transition: 0.5s transform;
   filter: grayscale(100%);
 }
